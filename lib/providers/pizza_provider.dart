@@ -1,6 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:mycoolpizzaapp/models/pizza.dart';
+import 'package:pizza_app/models/pizza.dart';
 
 class PizzaProvider extends ChangeNotifier {
   FirebaseFirestore firestore = FirebaseFirestore.instance;

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mycoolpizzaapp/view/home.dart';
+import 'package:pizza_app/view/home.dart';
 
 class OnboardingProvider extends ChangeNotifier {
   PageController pageController = PageController();

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 // Firestore plugin
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:mycoolpizzaapp/models/pizza.dart';
+import 'package:pizza_app/models/pizza.dart';
 
 class FirebaseHome extends StatefulWidget {
   @override
