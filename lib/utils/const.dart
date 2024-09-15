@@ -1,22 +1,22 @@
 import 'package:flutter/material.dart';
-import 'package:hive/hive.dart';
+//import 'package:hive/hive.dart';
 
-class Const {
-  static String appName = "Foody Bite";
+//class Const {
+  //static String appName = "Foody Bite";
 
   // Hive
-  static Box cartBox = Hive.box<Object>('cart');
+  //static Box cartBox = Hive.box<Object>('cart');
 
   //Colors for theme
-  static Color lightPrimary = Color(0xfffcfcff);
+  /*static Color lightPrimary = Color(0xfffcfcff);
   static Color darkPrimary = Colors.black;
   static Color lightAccent = Color(0xff5563ff);
   static Color darkAccent = Color(0xff5563ff);
   static Color lightBG = Color(0xfffcfcff);
   static Color darkBG = Colors.black;
-  static Color? ratingBG = Colors.yellow[600];
+  static Color? ratingBG = Colors.yellow[600];8?
 
-  static ThemeData lightTheme = ThemeData(
+  /*static ThemeData lightTheme = ThemeData(
     backgroundColor: lightBG,
     primaryColor: lightPrimary,
     accentColor: lightAccent,
@@ -31,9 +31,9 @@ class Const {
         ),
       ),
     ),
-  );
+  );*/
 
-  static ThemeData darkTheme = ThemeData(
+  /*static ThemeData darkTheme = ThemeData(
     brightness: Brightness.dark,
     backgroundColor: darkBG,
     primaryColor: darkPrimary,
@@ -50,4 +50,4 @@ class Const {
       ),
     ),
   );
-}
+}*/*/

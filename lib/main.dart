@@ -2,14 +2,13 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:hive/hive.dart';
+import 'package:pizza_app/providers/onborading_provider.dart';
 import 'package:pizza_app/view/home.dart';
-import 'package:pizza_app/view/onboarding/onboarding_screen.dart';
 import 'package:pizza_app/providers/pizza_provider.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:provider/provider.dart';
 
 import 'providers/cart_provider.dart';
-import 'providers/onboarding_provider.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

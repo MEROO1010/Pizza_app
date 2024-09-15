@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:pizza_app/models/cart_item.dart';
 import 'package:pizza_app/models/pizza.dart';
 import 'package:pizza_app/utils/const.dart';
-import 'package:pizza_app/utils/enums.dart';
 
 class CartProvider extends ChangeNotifier {
   List<CartItem> cartItems = [];
